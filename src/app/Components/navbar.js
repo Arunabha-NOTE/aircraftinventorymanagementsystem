@@ -38,9 +38,9 @@ export default function Navbar() {
             setMenuState('open')
         }
         window.onscroll = () => {
-            if (window.scrollY > 400) {
+            if (window.scrollY > 10) {
                 if (!document.querySelector('#navbar').classList.contains("bg-gray-600")) document.querySelector('#navbar').classList.add('bg-gray-600');
-            } else if (window.scrollY < 400) {
+            } else if (window.scrollY < 10) {
                 if (document.querySelector('#navbar').classList.contains("bg-gray-600")) document.querySelector('#navbar').classList.remove('bg-gray-600');
             }
         }

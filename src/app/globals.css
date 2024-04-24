@@ -16,14 +16,15 @@
   }
 }
 
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  color-scheme: dark;
+  color: white;
 }
 
 @layer utilities {
@@ -41,11 +42,11 @@ body {
 }
 
 ::selection {
-  background: #FFA300;
+  background: dodgerblue;
   color: #f8f8f2;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: #FFA300;
+  background-color: dodgerblue;
 }
