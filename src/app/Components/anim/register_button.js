@@ -8,7 +8,7 @@ export default function RegisterButton({ps_type = false, ps_link}) {
     const {t} = useTranslation();
     return (
         <motion.a
-            href={ps_type ? ps_link : "https://forms.gle/iEaNGxkNnmxGAzh78"}
+            href={ps_type ? ps_link : "https://github.com/Arunabha-NOTE/aircraftinventorymanagementsystem"}
             target="_blank"
             variants={{
                 whileHover: {

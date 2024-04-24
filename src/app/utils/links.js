@@ -1,13 +1,12 @@
 const links = [
     {path: '/#home', name: 'Home'},
-    {path: '/#schedule', name: 'Aircraft Details'},
+    {path: '/#aircraft', name: 'Aircraft Details'},
 
-    {path: '/#sponsors', name: 'Factory Details'},
-    { path: '/#tracks', name: 'Company Details' },
+    {path: '/#factory', name: 'Factory Details'},
+    { path: '/#company', name: 'Company Details' },
 
-    {path: '/#about', name: 'Staff Details'},
-    {path: '/#contact', name: 'Departments'},
-    // { path: '/sponsors', name: 'Sponsors' },
+    {path: '/#staff', name: 'Staff Details'},
+    {path: '/#deparments', name: 'Departments'},
 ];
 
 export default links;
